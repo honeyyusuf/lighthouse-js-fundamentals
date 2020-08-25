@@ -1,5 +1,6 @@
-const returnSayHello  = function (name) {
-  return "Hello, " + name;
+const isEven  = function (num) {
+  return num % 2 === 0;
 }
-const greeting = returnSayHello('John');
-console.log(greeting);
+
+console.log(isEven(10));
+console.log(isEven(11));
